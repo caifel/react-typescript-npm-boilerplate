@@ -9,3 +9,4 @@ export default function Sample(_a) {
             "Your Lucky number is: ",
             yourNumber.toFixed(0))));
 }
+//# sourceMappingURL=index.js.map

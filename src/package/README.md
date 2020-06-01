@@ -1,1 +1,1 @@
-# Doc for my awesome package
+# Doc for your awesome package

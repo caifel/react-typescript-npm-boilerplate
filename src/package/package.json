@@ -1,16 +1,19 @@
 {
     "name": "r-t-n-b",
-    "version": "1.0.1",
-    "description": "",
+    "version": "1.0.2",
+    "description": "Sample awesome npm package",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "keywords": [
         "react",
-        "text",
-        "typography",
-        "tool",
-        "style",
-        "styled"
+        "typescript",
+        "npm",
+        "package",
+        "component",
+        "boilerplate",
+        "sample",
+        "jest",
+        "enzyme"
     ],
     "peerDependencies": {
         "react": "^16.8.0",

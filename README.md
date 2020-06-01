@@ -46,7 +46,7 @@ In the following resources I explain how this was achieved:
 
 ### Video
 
-[youtube url] // Coming soon (Mainwhile if you have any quesiton just ask)
+[youtube url] // Coming soon (Mainwhile if you have any quesiton just ask in the [issues](https://github.com/GenDecoder/react-typescript-npm-boilerplate/issues))
 
 ### Article
 
@@ -58,7 +58,7 @@ In the `package.json` don't forget to change the `main` attribute from **dist/in
 
 **REMBER** that we use the `.tsx` for dev purpose.
 
-## Github action
+## Publish with Github action (Option 1)
 
 It will publish your package in npm whenever the `version` of it changes.
 
@@ -66,6 +66,15 @@ In order for it to work:
 
 * Add a **NPM_TOKEN** in `secrets`
 * IMPORTANT: The first `publish` of the package has to be done manually, just the first.
+
+## Publish manually (option 2)
+
+As simple as moving to the `src/package` folder and:
+
+1. `npm login` (in case your are not yet logged in with you NPM account)
+2. `npm publish` (should work if you've updated the version number in the package.json)
+
+`Would be great to have an script that increases the version before pushing the code` (Just an Idea)
 
 ## Author
 

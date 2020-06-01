@@ -1,5 +1,5 @@
 {
     "prettier.tslintIntegration": true,
     "prettier.configPath": ".prettierrc",
-    "eslint.enable": false
+    "eslint.enable": false // CRA has already tslint, no need to run eslint and tslint both
 }
