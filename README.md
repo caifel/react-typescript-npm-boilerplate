@@ -46,11 +46,11 @@ In the following resources I explain how this was achieved:
 
 ### Video
 
-[youtube url] // Coming soon (Mainwhile if you have any quesiton just ask in the [issues](https://github.com/GenDecoder/react-typescript-npm-boilerplate/issues))
+[youtube url] // Coming soon (Meanwhile if you have any quesiton just ask in the [issues](https://github.com/GenDecoder/react-typescript-npm-boilerplate/issues))
 
 ### Article
 
-A deeper article explaning how I built this boilerplate can be found [my-blog url] (Comin soon as well)
+A deeper article explaning how I built this boilerplate can be found in [my-blog url] (Coming soon as well)
 
 ## Important
 
