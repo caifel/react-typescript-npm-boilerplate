@@ -1,6 +1,6 @@
 {
     "name": "r-t-n-b",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Sample awesome npm package",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -18,6 +18,13 @@
     "peerDependencies": {
         "react": "^16.8.0",
         "react-dom": "^16.8.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GenDecoder/react-typescript-npm-boilerplate"
+    },
+    "bugs": {
+        "url": "https://github.com/GenDecoder/react-typescript-npm-boilerplate/issues"
     },
     "author": "Mario Medrano Maldonado <mario.medrano.maldonado@gmail.com>",
     "license": "MIT"
