@@ -74,7 +74,7 @@ As simple as moving to the `src/package` folder and:
 1. `npm login` (in case your are not yet logged in with you NPM account)
 2. `npm publish` (should work if you've updated the version number in the package.json)
 
-`Would be great to have an script that increases the version before pushing the code` (Just an Idea)
+`Would be great to have an script that increases the version before pushing the code` (An idea to work on later)
 
 ## Author
 
