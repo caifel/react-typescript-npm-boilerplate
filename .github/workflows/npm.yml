@@ -11,7 +11,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  test-and-publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,7 +27,7 @@ jobs:
       uses: JS-DevTools/npm-publish@v1
       with:
         token: ${{ secrets.NPM_TOKEN }}
-        package: src/package
+        package: ./src/package/package.json
     - if: steps.publish.type != 'none'
       run: |
         echo "Version changed: ${{ steps.publish.outputs.old-version }} => ${{ steps.publish.outputs.version }}"
