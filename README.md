@@ -17,9 +17,20 @@ There is **ONE IMPORTANT** extra script:
 
 Refer to the `package-generator/pack.sh` to see what happens exactly. It is important that you understand it because it will allow you to customize the results to your specific case (IT IS JUST A BUNCH OF SIMPLE COMMANDS)
 
-## Recommendation
+## Recommendation (Optional workflow)
 
 I encorage the use of `npm link`, at least for a final review. It will allow you to determine how other projects will actually use your package.
+
+In this case the `Sample` component used in `App.tsx` was linked, how?
+
+* Go to `src/package` folder and `npm link`
+* Go to root folder and `npm link <name-of-your-packge` (e.g.npm link r-t-n-b)
+
+- Magic is what happens!
+
+- **Unlink them when you are ready** (`npm unlink` in the package and `npm unlink <package-name>` in the root)
+
+- In order to gain whatching of the linked package, update the `main` in **src/package/package.json** to point to your main **.tsx** file (don't forget to change it before check-in your code)
 
 ## Testing
 
