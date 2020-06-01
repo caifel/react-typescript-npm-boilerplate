@@ -1,0 +1,5 @@
+{
+    "prettier.tslintIntegration": true,
+    "prettier.configPath": ".prettierrc",
+    "eslint.enable": false
+}

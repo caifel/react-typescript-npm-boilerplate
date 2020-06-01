@@ -1,0 +1,1 @@
+# Doc for my awesome package
