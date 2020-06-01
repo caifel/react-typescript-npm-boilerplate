@@ -11,7 +11,7 @@ Focus on two folders
 
 As we use `create-react-app` all of its scripts are available *(start, build, test)*. 
 
-There is ONE IMPORTANT extra script: 
+There is **ONE IMPORTANT** extra script: 
 
 `yarn generate` or `npm run generate`
 
