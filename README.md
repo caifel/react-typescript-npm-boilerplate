@@ -76,8 +76,8 @@ As simple as moving to the `src/package` folder and:
 
 ## Q&A
 
-**Q1.** Would be useful to have an script that increases the package version automatically before a push for example?
-**A1.** I don't think so, package versioning if done correctly must follow certain criterias that personally I think can not be abstracted, at least not in a simple script and not without using IA.
+- **Q1.** Would be useful to have an script that increases the package version automatically before a push for example?
+- **A1.** I don't think so, package versioning if done correctly must follow certain criterias that personally I think can not be abstracted, at least not in a simple script and not without using IA.
 
 ## Author
 
