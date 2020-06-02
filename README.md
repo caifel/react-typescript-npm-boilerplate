@@ -74,7 +74,10 @@ As simple as moving to the `src/package` folder and:
 1. `npm login` (in case your are not yet logged in with you NPM account)
 2. `npm publish` (should work if you've updated the version number in the package.json)
 
-`Would be great to have an script that increases the version before pushing the code` (An idea to work on later)
+## Q&A
+
+**Q1.** Would be useful to have an script that increases the package version automatically before a push for example?
+**A1.** I don't think so, package versioning if done correctly must follow certain criterias that personally I think can not be abstracted, at least not in a simple script and not without using IA.
 
 ## Author
 
