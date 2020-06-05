@@ -1,4 +1,4 @@
-name: transpile-patch-publish
+name: NPM publish
 
 on:
     push:
@@ -7,11 +7,14 @@ on:
         branches: [master]
 
 jobs:
-    test-and-publish:
+    transpile-patch-publish:
         runs-on: ubuntu-latest
 
         steps:
             - uses: actions/checkout@v2
+
+            - name: Install dependencies
+              run: yarn add --dev typescript @types/react @types/react-dom
 
             - name: Transpile typescript to javascript and pack in dist folder
               run: scripts/transpile-and-move.sh
