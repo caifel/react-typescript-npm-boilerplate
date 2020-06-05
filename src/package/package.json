@@ -1,8 +1,8 @@
 {
     "name": "r-t-n-b",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Sample awesome npm package",
-    "main": "dist/index.js",
+    "main": "dist/index.tsx",
     "types": "dist/index.d.ts",
     "keywords": [
         "react",
