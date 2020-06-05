@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "1. Go to folder where tsconfig.ts lays"
-    cd package-generator
+    cd scripts
 echo "2. Transpile Typescript to Javascript"
     # "tsc" command uses tsconfig.ts as a 
     # set of instructions of how to transpile
