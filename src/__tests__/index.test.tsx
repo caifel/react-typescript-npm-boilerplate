@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Sample from '../dist';
+import Sample from '../package/dist';
 
 describe('Sample', () => {
     it('contains "the greeting" message', () => {
