@@ -1,4 +1,4 @@
-name: publish-npm-package
+name: transpile-patch-publish
 
 on:
     push:
@@ -13,14 +13,14 @@ jobs:
         steps:
             - uses: actions/checkout@v2
 
-            - name: Install typescript
-              run: yarn add --dev typescript
-
             - name: Transpile typescript to javascript and pack in dist folder
               run: scripts/transpile-and-move.sh
 
             - name: Point to "index.js" intead to "index.tsx"
               run: perl -pi -e "s/dist\/index.tsx/dist\/index.js/g" package.json
+
+            - name: Remove dependencies
+              run: yarn remove typescript @types/react @types/react-dom
 
             - id: publish
               uses: JS-DevTools/npm-publish@v1

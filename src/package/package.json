@@ -27,5 +27,6 @@
         "url": "https://github.com/GenDecoder/react-typescript-npm-boilerplate/issues"
     },
     "author": "Mario Medrano Maldonado <mario.medrano.maldonado@gmail.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {}
 }
