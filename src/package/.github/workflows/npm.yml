@@ -17,7 +17,7 @@ jobs:
               run: yarn add --dev typescript
 
             - name: Transpile typescript to javascript and pack in dist folder
-              run: scripts/transpile-and-pack.sh
+              run: scripts/transpile-and-move.sh
 
             - name: Point to "index.js" intead to "index.tsx"
               run: perl -pi -e "s/dist\/index.tsx/dist\/index.js/g" package.json
