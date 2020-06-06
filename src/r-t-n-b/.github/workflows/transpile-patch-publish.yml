@@ -13,7 +13,7 @@ jobs:
         steps:
             - uses: actions/checkout@v2
 
-            - name: Install dependencies
+            - name: Install temporal dependencies
               run: yarn add --dev typescript @types/react @types/react-dom
 
             - name: Transpile typescript to javascript and pack in dist folder
@@ -22,7 +22,7 @@ jobs:
             - name: Point to "index.js" intead to "index.tsx"
               run: perl -pi -e "s/dist\/index.tsx/dist\/index.js/g" package.json
 
-            - name: Remove dependencies
+            - name: Remove temporal dependencies
               run: yarn remove typescript @types/react @types/react-dom
 
             - id: publish
