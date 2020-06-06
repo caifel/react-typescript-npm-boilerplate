@@ -4,9 +4,6 @@
     "description": "Sample awesome npm package",
     "main": "dist/index.tsx",
     "types": "dist/index.d.ts",
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
-    },
     "keywords": [
         "react",
         "typescript",

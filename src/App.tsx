@@ -1,12 +1,11 @@
 import React from 'react';
 // import Sample from 'r-t-n-b'; // Uncomment when using the npm link approach
-import SampleNoNpmLink from 'r-t-n-b'; // This will work always
+import SampleNoNpmLink from './r-t-n-b/dist'; // This will always work
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                {/* Uncomment when using the npm link approach */}
                 {/* <Sample color="lightgreen" />  */}
                 <SampleNoNpmLink color="orange" />
             </header>

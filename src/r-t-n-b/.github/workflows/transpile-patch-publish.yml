@@ -25,10 +25,6 @@ jobs:
             - name: Remove temporal dependencies
               run: yarn remove typescript @types/react @types/react-dom
 
-            - name: Publish in Github packages
-              run: npm login --registry=https://npm.pkg.github.com/
-              run: npm publish
-
             - id: publish
               uses: JS-DevTools/npm-publish@v1
               with:
